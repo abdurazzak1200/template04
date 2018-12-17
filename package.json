@@ -1,7 +1,6 @@
 {
   "name": "template04",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +17,6 @@
   "homepage": "https://github.com/abdurazzak1200/template04#readme",
   "devDependencies": {
     "bourbon": "^5.1.0"
-  }
+  },
+  "description": ""
 }

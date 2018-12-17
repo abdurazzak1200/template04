@@ -3,3 +3,40 @@
     background: #252222
     .container
         display: flex
+        height: 100%
+
+.nav__logo
+    font-family: "BebasNeue", sans-serif
+    line-height: rem(100px)
+    font-size: rem(48px)
+    font-weight: 600
+    color: #fff
+.nav__list
+    margin-left: rem(300px)
+    display: flex
+    list-style-type: none
+    line-height: rem(69px)
+.nav__item
+    margin-left: rem(30px)
+    &:first-child
+        margin-left: 0
+    
+
+
+.nav__link
+    text-decoration: none
+    color: #fff
+    font-size: rem(18px)
+    transition: 0.5s
+    border-bottom: 1px solid transparent
+    &:hover
+        color: #65ba99
+        border-bottom: 1px solid #65ba99
+
+.nav__social
+    display: flex
+    line-height: 90px
+    margin-left: auto
+    .social__item
+        list-style-type: none
+        margin-left: rem(15px)

@@ -1,6 +1,8 @@
 .news
     background: #cecece
     font-family: "OpenSans", sans-serif
+    font-style: italic
+    padding-bottom: 50px
 
     &__title
         font-family: "BebasNeue", sans-serif
@@ -8,12 +10,62 @@
         color: #000
         font-size: rem(48px)
         text-align: center
-
-    &__container
-        display: grid
-        grid-template-columns: 1fr 1fr
-        grid-template-rows: 1fr
     &__latest
-        grid-column: 1/2
+        display: inline-block
+        width: 510px
+        float: left
     &__tags
-        grid-column: 2/3
+        width: 510px
+
+.latest__date
+    display: inline-block
+    background: #00A586
+    padding: 5px 20px
+.latest__glamour
+    float: right
+    width: 143px
+    color: #FF4B39
+    img
+        float: left
+        margin-top: 3px
+.latest__title
+    color: #00A586
+    padding: 20px 0 5px 0
+.latest__img
+    width: 100%
+    margin-bottom: 20px
+    border-radius: 5px
+
+.latest__paraph
+    color: #666767
+.latest__link
+    text-decoration: none
+    float: right
+.latest__read-more
+    color: #FF4B39
+    font-size: rem(14px)
+    float: left
+.latest__arrow
+    margin-top: 3px
+
+.news-tags
+    width: 510px
+
+.tags__title
+    color: #00A586
+    font-weight: bold
+.tags__list
+    list-style-type: none
+    display: flex
+    justify-content: flex-start
+    padding-left: 0px
+    margin-bottom: rem(60px)
+
+    .tags__item
+        background: #00A586
+        padding: 5px 10px
+        margin-right: 6px
+    
+    a
+        text-decoration: none
+        color: #fff

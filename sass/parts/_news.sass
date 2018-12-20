@@ -12,30 +12,34 @@
         text-align: center
     &__latest
         display: inline-block
-        width: 510px
+        width: 500px
         float: left
+        margin-right: rem(30px)
     &__tags
-        width: 510px
+        width: 500px
         overflow: hidden
 
 .latest__date
     display: inline-block
     background: #00A586
-    padding: 5px 20px
+    padding: rem(5px) rem(20px)
 .latest__glamour
     float: right
-    width: 143px
+    width: rem(143px)
     color: #FF4B39
+    a
+        text-decoration: none
+        color: #FF4B39        
     img
         float: left
-        margin-top: 3px
+        margin-top: rem(3px)
 .latest__title
     color: #00A586
-    padding: 20px 0 5px 0
+    padding: rem(20px) 0 rem(5px) 0
 .latest__img
     width: 100%
-    margin-bottom: 20px
-    border-radius: 5px
+    margin-bottom: rem(20px)
+    border-radius: rem(5px)
 
 .latest__paraph
     color: #666767
@@ -47,10 +51,8 @@
     font-size: rem(14px)
     float: left
 .latest__arrow
-    margin-top: 3px
+    margin-top: rem(3px)
 
-.news-tags
-    width: 510px
 
 .tags__title
     color: #00A586
@@ -58,15 +60,36 @@
 .tags__list
     list-style-type: none
     display: flex
-    justify-content: flex-start
+    justify-content: center
     padding-left: 0px
     margin-bottom: rem(60px)
 
     .tags__item
         background: #00A586
-        padding: 5px 10px
-        margin-right: 6px
+        padding: rem(5px) rem(10px)
+        margin-right: rem(6px)
+        transition: .5s
+        &:hover
+            background: #e2534b
     
     a
         text-decoration: none
         color: #fff
+.tags__title-second
+    font-size: rem(20px)
+    font-style: italic
+    color: #818181
+    margin-bottom: rem(25px)
+    span
+        font-weight: bold
+        color: #000000
+        font-size: rem(24px)
+        font-style: normal
+.tags__blog
+    height: rem(70px)
+    margin-bottom: rem(20px)
+    .blog__img
+        margin-right: rem(20px)
+        float: left
+    .blog__date
+        color: #dd6f69
